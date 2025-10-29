@@ -148,6 +148,25 @@ body {
   .video-card { grid-column: span 4; }
 }
 
+.jt-section {
+  margin: 40px 0;
+  padding: 20px 0;
+}
+
+.jt-image {
+  margin: 0;
+  background: var(--card);
+  border: 1px solid rgba(255,255,255,.06);
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.jt-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 .site-footer {
   margin: 40px 0 20px;
   color: var(--muted);
