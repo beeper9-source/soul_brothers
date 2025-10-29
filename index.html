@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Permissions-Policy" content="compute-pressure=(), camera=(), microphone=(), geolocation=(), payment=(), usb=(), magnetometer=(), gyroscope=(), accelerometer=()">
+  <title>Soul Brothers 음악회</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="title">Soul Brothers 음악회</h1>
+      <p class="subtitle">공유 앱</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="videos-section" aria-labelledby="videos-heading">
+      <h2 id="videos-heading" class="section-title">동영상</h2>
+      <div class="video-grid">
+        <article class="video-card">
+          <div class="video-thumbnail">
+            <img src="https://img.youtube.com/vi/7mZpLlk1qZQ/maxresdefault.jpg" alt="영상 1 썸네일" loading="lazy">
+            <div class="play-button">▶</div>
+          </div>
+          <a class="video-link" href="https://youtu.be/7mZpLlk1qZQ" target="_blank" rel="noopener">사랑은 도망가</a>
+        </article>
+
+        <article class="video-card">
+          <div class="video-thumbnail">
+            <img src="https://img.youtube.com/vi/Ynlbie9yoRo/maxresdefault.jpg" alt="영상 2 썸네일" loading="lazy">
+            <div class="play-button">▶</div>
+          </div>
+          <a class="video-link" href="https://youtu.be/Ynlbie9yoRo" target="_blank" rel="noopener">마티니</a>
+        </article>
+
+        <article class="video-card">
+          <div class="video-thumbnail">
+            <img src="https://img.youtube.com/vi/Q11cvhp2uNQ/maxresdefault.jpg" alt="영상 3 썸네일" loading="lazy">
+            <div class="play-button">▶</div>
+          </div>
+          <a class="video-link" href="https://youtu.be/Q11cvhp2uNQ" target="_blank" rel="noopener">우리는</a>
+        </article>
+
+        <article class="video-card">
+          <div class="video-thumbnail">
+            <img src="https://img.youtube.com/vi/U7p2yP1YrhM/maxresdefault.jpg" alt="영상 4 썸네일" loading="lazy">
+            <div class="play-button">▶</div>
+          </div>
+          <a class="video-link" href="https://youtu.be/U7p2yP1YrhM" target="_blank" rel="noopener">주의 기도</a>
+        </article>
+
+        <article class="video-card">
+          <div class="video-thumbnail">
+            <img src="https://img.youtube.com/vi/fqwzcZmEM5Y/maxresdefault.jpg" alt="영상 5 썸네일" loading="lazy">
+            <div class="play-button">▶</div>
+          </div>
+          <a class="video-link" href="https://youtu.be/fqwzcZmEM5Y" target="_blank" rel="noopener">why me</a>
+        </article>
+
+        <article class="video-card">
+          <div class="video-thumbnail">
+            <img src="https://img.youtube.com/vi/l0nUO0o2ABQ/maxresdefault.jpg" alt="영상 6 썸네일" loading="lazy">
+            <div class="play-button">▶</div>
+          </div>
+          <a class="video-link" href="https://youtu.be/l0nUO0o2ABQ" target="_blank" rel="noopener">at the cross</a>
+        </article>
+
+        <article class="video-card">
+          <div class="video-thumbnail">
+            <img src="https://img.youtube.com/vi/i7J1Gq-GHs8/maxresdefault.jpg" alt="영상 7 썸네일" loading="lazy">
+            <div class="play-button">▶</div>
+          </div>
+          <a class="video-link" href="https://youtu.be/i7J1Gq-GHs8" target="_blank" rel="noopener">구원열차</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="poster-section" aria-labelledby="poster-heading">
+      <h2 id="poster-heading" class="section-title">포스터</h2>
+      <figure class="poster">
+        <img src="main.jpg" alt="Soul Brothers 음악회 포스터" loading="lazy">
+     
+      </figure>
+      <noscript>
+        자바스크립트가 비활성화되어 있습니다. 이미지 로딩은 그대로 동작합니다.
+      </noscript>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> Soul Brothers</small>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
+
