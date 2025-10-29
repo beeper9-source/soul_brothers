@@ -93,6 +93,9 @@ body {
   background: #000;
   overflow: hidden;
   cursor: pointer;
+  display: block;
+  text-decoration: none;
+  color: inherit;
 }
 .video-thumbnail img {
   position: absolute;
