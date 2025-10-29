@@ -149,8 +149,8 @@ body {
 }
 
 .jt-section {
-  margin: 40px 0;
-  padding: 20px 0;
+  margin: 20px 0;
+  padding: 10px 0;
 }
 
 .jt-image {
@@ -159,12 +159,31 @@ body {
   border: 1px solid rgba(255,255,255,.06);
   border-radius: 14px;
   overflow: hidden;
+  max-width: 100%;
 }
 
 .jt-image img {
   width: 100%;
   height: auto;
   display: block;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .jt-section {
+    margin: 15px 0;
+    padding: 5px 0;
+  }
+  
+  .jt-image {
+    border-radius: 10px;
+  }
+  
+  .jt-image img {
+    min-height: 200px;
+    object-fit: cover;
+  }
 }
 
 .site-footer {
